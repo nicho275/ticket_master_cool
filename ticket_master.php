@@ -39,7 +39,7 @@
                 Grupo o Artista: <select  name = "artistas" requied>
                                         <option value = "none">No seleccionado</option>
                                         <optgroup label = "Grupos">
-                                        <option value = "5SOS">5 Seconds Of Summer</option>
+                                        <option value = "5 Seconds Of Summer">5 Seconds Of Summer</option>
                                             <option value = "Artic Monkeys">Artic Monkeys</option>
                                             <option value = "Coldplay">Coldplay</option>
                                             <option value = "Imagine Dragons">Imagine Dragons</option>
@@ -57,11 +57,11 @@
             Zona: <select name = "zona" required>
                 <option value = "none">No seleccionado</option>
                                         <optgroup label = "Zonas">
-                                            <option value = "muy_cerca">Rompeoidos</option>
-                                            <option value = "cerca">CasiRompeoidos</option>
-                                            <option value = "medio">Disfruta</option>
-                                            <option value = "lejos">CasiNoseescucha</option>
-                                            <option value = "muy_lejos">Noseescucha</option>      
+                                            <option value = "Rompeoidos">Rompeoidos</option>
+                                            <option value = "CasiRompeoidos">CasiRompeoidos</option>
+                                            <option value = "Disfruta">Disfruta</option>
+                                            <option value = "CasiNoseescucha">CasiNoseescucha</option>
+                                            <option value = "Noseescucha">Noseescucha</option>      
                                         </optgroup>
                                 </select>
                                 <br><br>
@@ -74,11 +74,11 @@
                 Lugar: <select required name = "lugar">
                         <option value = "none">No seleccionado</option>
                         <optgroup label = "Lugar">
-                        <option value = "auditorio_nacional">Auditorio Nacional</option>
-                        <option value = "deportivo_EMP">Deportivo EMP</option>
-                        <option value = "arena">Arena Ciudad de México</option>
-                        <option value = "foro_sol">Foro Sol</option>
-                        <option value = "pepsi_center">Pepsi Center WTC</option>
+                        <option value = "Auditorio Nacional">Auditorio Nacional</option>
+                        <option value = "Deportivo EMP">Deportivo EMP</option>
+                        <option value = "Arena Ciudad de Mexico">Arena Ciudad de México</option>
+                        <option value = "Foro Sol">Foro Sol</option>
+                        <option value = "Pepsi Center WTC">Pepsi Center WTC</option>
                         </optgroup>
                     </select>
                 </label>
@@ -87,11 +87,11 @@
 
                 <strong>EXTRAS:</strong>
                 <br>
-                Comida: <input type = "checkbox" name = "comida_extra">
+                Comida: <input type = "checkbox" name = "i">
                 <br>
-                Estacionamiento: <input type = "checkbox" name = "estacionamiento_extra">
+                Estacionamiento: <input type = "checkbox" name = "e">
                 <br>
-                Souvenir: <input type = "checkbox" name = "souvenir_extra">
+                Souvenir: <input type = "checkbox" name = "a">
                 </label>
 
         </fieldset>
