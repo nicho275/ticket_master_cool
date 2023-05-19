@@ -36,7 +36,7 @@
             </label>
             <br><br>
             <label>
-                Grupo o Artista: <select id = "artistas" requied>
+                Grupo o Artista: <select  name = "artistas" requied>
                                         <option value = "none">No seleccionado</option>
                                         <optgroup label = "Grupos">
                                         <option value = "5SOS">5 Seconds Of Summer</option>
@@ -54,7 +54,7 @@
                                 </select>
             </label>
             <br><br>
-            Zona: <select id = "zona" required>
+            Zona: <select name = "zona" required>
                 <option value = "none">No seleccionado</option>
                                         <optgroup label = "Zonas">
                                             <option value = "muy_cerca">Rompeoidos</option>
@@ -67,16 +67,19 @@
                                 <br><br>
             <label>
                 Número de Boletos: 
-                <input type = "number" required min = 1 max = 15>
+                <input type = "number" required min = 1 max = 15 name = "num">
             </label>
 <br><br>
             <label>
-                Lugar: <select required id = "lugar">
+                Lugar: <select required name = "lugar">
+                        <option value = "none">No seleccionado</option>
+                        <optgroup label = "Lugar">
                         <option value = "auditorio_nacional">Auditorio Nacional</option>
                         <option value = "deportivo_EMP">Deportivo EMP</option>
                         <option value = "arena">Arena Ciudad de México</option>
                         <option value = "foro_sol">Foro Sol</option>
                         <option value = "pepsi_center">Pepsi Center WTC</option>
+                        </optgroup>
                     </select>
                 </label>
             <br><br>
